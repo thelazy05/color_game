@@ -21,7 +21,6 @@ def startgame(event):
         first_round = True
         countdown()
     nextcolor()
-
 #____countdown_timer_________________________________________________________________________________________________________________________
 def countdown():
     global timeleft
