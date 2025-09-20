@@ -55,7 +55,7 @@ def nextcolor():
         eg.delete(0, END)
         random.shuffle(colors)
         lbl_color.config(fg=colors[1].lower(), text=colors[0])
-
+        lbl_score.config(text=f"Score: {score}") 
 mainwin.bind('<Return>',startgame)
 #==widgets===================================================================================================================================
 # ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓
